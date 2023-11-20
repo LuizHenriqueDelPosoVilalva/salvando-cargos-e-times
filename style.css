@@ -1,0 +1,69 @@
+.containerTimes {
+    width: 100%;
+}
+
+.frontEnd {
+    background-color: rgb(179, 244, 255);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.borderFrontEnd {
+    border-bottom: 2px solid blue;
+}
+
+.dataSciense {
+    background-color: rgb(231, 255, 194);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.borderDataSciense {
+    border-bottom: 2px solid greenyellow;
+}
+
+.devops {
+    background-color: rgb(253, 213, 213);
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.borderDevops {
+    border-bottom: 2px solid red;
+}
+
+.uxEdesing {
+    background-color:#ffff;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.borderUXeDesign {
+    border-bottom: 2px solid rosybrown;
+}
+
+.cards {
+    width: 20rem;
+}
+
+.imgContainer {
+    height: 50%;
+    background-color: darkgrey;
+}
+
+img {
+    width: 50%;
+}
