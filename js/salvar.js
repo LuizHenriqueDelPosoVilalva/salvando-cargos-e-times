@@ -84,8 +84,8 @@ function createCard(name, cargo, imgSrc) {
     card.classList.add('card', 'cards', 'mb-4', 'd-flex', 'align-items-center');
     img.classList.add('img-thumbnail', 'mt-5');
     cardBody.classList.add('card-body');
-    paragrafoNome.classList.add('h4');
-    paragrafoCargo.classList.add('h4');
+    paragrafoNome.classList.add('h4', 'text-break');
+    paragrafoCargo.classList.add('h4', 'text-break');
 
     card.appendChild(img);
     cardBody.appendChild(paragrafoNome);
